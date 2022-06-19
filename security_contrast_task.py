@@ -112,9 +112,9 @@ output :
     - gets the lambda code and policies and use it to return a least privilige policy (json) 
 """   
 def create_LPP_from_lambda_name(lambda_name):
-    aws_access_key_id="ASIAXEQN7FQLPJXBRJ6X"
-    aws_secret_access_key="wUvuTQUAeiJC0Z+TtefahU+0X3D+CggY4QJOG8xX"
-    aws_session_token="IQoJb3JpZ2luX2VjEOr//////////wEaDGV1LWNlbnRyYWwtMSJHMEUCIQCVkYl1lJ2YKEsi8MEGpcW0KWvP7CObVpzkytfYTBwcigIgLAhholLuQzdOZLIlDfT/rqVTACDTzj+//FslklHo1bwq3wQI0///////////ARAAGgw0OTA3MjkzMTk0NDYiDGa/eufMfYMiYIv17iqzBA6ckESN2ProOQTCnMyC2uP2Gg5YvUG6lDQXnbSuRWo6cZOT1QpJO16yJkzWhZMcC8DJqn2wsrV1FY9DUuodbqZ8ACI+63hwJP4AeLxQEjrWU0wP8Nlmxh0Y/0DT538B8C+TRoa8UzQvr5GzDr1ipK/g1Rko2jKLrI2QuxkYI/U+gaOcH3NpKrKbZhD6uBJlEhX4o4qJd5W6tx+ZUQ2ffqzygxQkNb59pzXhpoUtVKk2gaYPdi9Ynvp4RZjItNSfGbLP7NIwEAawRR02L9YciDNLW+MfyOvCc8DxAvAOxsTnoOlB/2c20VE0zg3c2gb7rYskJ7rARItYFq5g+pZSR1c/N3Vvy/NKFsdIXw6Yh5co10PIhpMNbaDhQFrXlNjktJ+ksjiL3PQEn2PFRhSk4IM4faI8tECX49KGtutJocyH9BEm0HGIcLR1ecH1QCPDLpup5aUSVwEZaoNZB5jBliEteYlgO1EqRuzHxM3B5VlxLwI/INZVAxEpA1U/5yeBkSrv3GoVMt+5qcewK/+oVULIdRC59xDHRNrB2mce13ri8d50YGtH+oxzpv32JMiOosbu8RDNsjpyijbQiRKynT+zgVd1n6bSpwUhkcqmCm6nM6lrWcwmPK7IWi1pkNkpemk+BdcCugq/CEK57cLcwgICQ22lfoi3zz8xU3tJQ35Lt8za6udShuHmUi0Tm+CmlM0bWVyTE98cb2ph0hrijS7Y45t4+EwJFM9LYri4geiGrvcLMObWx5QGOoUCho18mLmMq8Ri+EZffQEYlYmJwGwEMrknTOly+WvDsl/I54wbQ7sAZFkTnijh6CoVmufUwi4n5b7LzD7VG7ulG9dyTRamIDcj1EVK9k7hH6h+XI33JiNUqHNOHAXR7GrQUoOhK4FHxuxDmFJ4N7mFUlDSEp/+SmfzgE3lrDI2G48epYoNJeHhsHcWBMV6IKJbzLIM7m6qpPsd4+Hs2pCfm6cpFhjyOU0d28k0cGq/D+DwZMivXwWKjBZUhKsdWvMh8w+LhheSPE7RqkwcZO1Fdt1pb/5ajUtfXUqiH+qOE1oY+ChBDCmyI6Y0FpU+WSWKq2RExY+FD32OngiJaH84seO/OQMD"
+    aws_access_key_id=""
+    aws_secret_access_key=""
+    aws_session_token=""
     client = boto3.client("lambda",region_name="us-east-1",
                           aws_access_key_id=aws_access_key_id,
                           aws_secret_access_key=aws_secret_access_key,
